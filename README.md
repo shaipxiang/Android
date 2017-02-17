@@ -1,4 +1,4 @@
-StrayBirds
+为使用GitHub pages,使用StrayBirds快速搭建。
 ==========
 
 基于 GitHub Pages 搭建的极简博客，所有操作都可以直接通过浏览器完成。
