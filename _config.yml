@@ -122,7 +122,7 @@ safe: false
 highlighter: pygments
 title: DroidHua
 description: 博学之,审问之,慎思之,明辨之,笃行之
-theme: slate
+theme: leap-day
 disqusname: shaipxiang
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
