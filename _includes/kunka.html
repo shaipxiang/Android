@@ -46,6 +46,20 @@
                 <h1 class="logo">
                     <a href="{{ site.baseurl }}/"><i class="icon-anchor"></i></a>
                 </h1>
+		<div>
+		<script>
+  		    (function() {
+    			var cx = '007167422651785239782:utljnvvtuzo';
+    			var gcse = document.createElement('script');
+   	 		gcse.type = 'text/javascript';
+    			gcse.async = true;
+    			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    			var s = document.getElementsByTagName('script')[0];
+    			s.parentNode.insertBefore(gcse, s);
+  			})();
+		</script>
+		<gcse:search></gcse:search>	
+		</div>
                 <nav class="nav">
                     <ul>
                         {% for link in site.nav %}
@@ -61,19 +75,7 @@
                         </li>
                         {% endfor %}
                     </ul>
-                </nav>
-		<script>
-  		    (function() {
-    			var cx = '007167422651785239782:utljnvvtuzo';
-    			var gcse = document.createElement('script');
-   	 		gcse.type = 'text/javascript';
-    			gcse.async = true;
-    			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    			var s = document.getElementsByTagName('script')[0];
-    			s.parentNode.insertBefore(gcse, s);
-  			})();
-		</script>
-		<gcse:search></gcse:search>
+                </nav>		
                 <div class="follow">
                     {% for link in site.follow %}
                     <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
