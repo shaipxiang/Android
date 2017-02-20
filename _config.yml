@@ -89,12 +89,12 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 掌心
-      url: http://www.zhanxin.info
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
+    - text: 张明云
+      url: https://zhuanlan.zhihu.com/zmywly8866
+    - text: Trinea
+      url: https://github.com/Trinea
+    - text: Blankj
+      url: http://www.jianshu.com/u/46702d5c6978
     message: Friends
   - item:
     - text: Font Awesome
