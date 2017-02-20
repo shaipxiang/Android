@@ -101,12 +101,18 @@ customLinks:
       url: http://www.jianshu.com/c/NEt52a
     message: Friends
   - item:
-    - text: Font Awesome
-      url: http://fortawesome.github.io/Font-Awesome/
-    - text: Google Font
-      url: http://www.google.com/fonts/
-    - text: jQuery
-      url: http://jquery.com/
+    - text: Android Developers
+      url: https://developer.android.com/index.html
+    - text: Android Studio中文社区
+      url: http://www.android-studio.org/
+    - text: Android Ctolib
+      url: http://www.ctolib.com/android/
+    - text: Github
+      url: https://github.com/
+    - text: 简书
+      url: http://www.jianshu.com/
+    - text: CSDN
+      url: http://www.csdn.net/
     message: 其他相关链接
 
 #comment config
