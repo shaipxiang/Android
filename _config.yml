@@ -62,11 +62,6 @@ nav:
     url: navigations/contact.html
   - text: 友情链接
     url: navigations/links.html
-  <form target="_blank" action="http://zhannei.baidu.com/cse/site">
-    <input type="text" name="q" size="30">
-    <input type="submit" value="搜索">
-    <input type="hidden" name="cc" value="https%3A%2F%2Fshaipxiang.github.io%2Fandroid%2Findex.html">
-  </form>
 
 #Author config
 author:
@@ -94,11 +89,11 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 掌心1
+    - text: 掌心
       url: http://www.zhanxin.info
-    - text: Jekyll1
+    - text: Jekyll
       url: http://jekyllrb.com
-    - text: Jekyll Theme1
+    - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
     message: Friends
   - item:
