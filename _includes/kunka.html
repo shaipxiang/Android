@@ -62,11 +62,18 @@
                         {% endfor %}
                     </ul>
                 </nav>
-		<form target="_blank" action="http://zhannei.baidu.com/cse/site">
-            		<input type="text" name="q" size="30">
-            		<input type="submit" value="搜索">
-            		<input type="hidden" name="cc" value="https%3A%2F%2Fshaipxiang.github.io%2Fandroid">
-    		</form>
+		<script>
+  		    (function() {
+    			var cx = '007167422651785239782:utljnvvtuzo';
+    			var gcse = document.createElement('script');
+   	 		gcse.type = 'text/javascript';
+    			gcse.async = true;
+    			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    			var s = document.getElementsByTagName('script')[0];
+    			s.parentNode.insertBefore(gcse, s);
+  			})();
+		</script>
+		<gcse:search></gcse:search>
                 <div class="follow">
                     {% for link in site.follow %}
                     <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
