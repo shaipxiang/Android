@@ -94,11 +94,11 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 掌心
+    - text: 掌心1
       url: http://www.zhanxin.info
-    - text: Jekyll
+    - text: Jekyll1
       url: http://jekyllrb.com
-    - text: Jekyll Theme
+    - text: Jekyll Theme1
       url: http://www.zhanxin.info/themes.html
     message: Friends
   - item:
