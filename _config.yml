@@ -74,15 +74,15 @@ author:
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
   - class: icon-github
-    url: /atom.xml
+    url: https://github.com
+  - class: icon-android
+    url: https://developer.android.com/reference/packages.html
+  - class: icon-twitter
+    url: http://www.jianshu.com
   - class: icon-weibo
     url: http://weibo.com
-  - class: icon-renren
-    url: http://renren.com
-  - class: icon-github-alt
-    url: http://github.com
-  - class: icon-twitter
-    url: http://twitter.com
+  - class: icon-facebook
+    url: http://www.facebook.com
   - class: icon-google-plus
     url: http://google.com
 
