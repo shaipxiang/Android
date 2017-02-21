@@ -6,6 +6,7 @@ comments: true
 ---
 
 ![](http://upload-images.jianshu.io/upload_images/2926311-cf8fb9f33104bac6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 题注：Android Studio的体验性确实要比Eclipse上的效率高，下面的几点小配置可能对你的代码规范起到一点小小的作用
 ___
 
