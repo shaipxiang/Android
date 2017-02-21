@@ -10,6 +10,7 @@ comments: true
 
 ___
 
+
 ####第三方插件安装方法：
 打开Android Studio，Settings—>Plugins，选择Browser...在线安装，输入插件名字搜索安装既可，也可以选择磁盘安装，安装完成后重启生效。
 
