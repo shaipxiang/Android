@@ -7,7 +7,6 @@ comments: true
 
 
 ![](http://upload-images.jianshu.io/upload_images/2926311-95d15673eb47efe1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 题注：以前学习Android Studio在有道云上做的散记，现在转移到GitHub Page上
 ___
 
