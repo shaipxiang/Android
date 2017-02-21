@@ -1,22 +1,22 @@
-为使用GitHub pages,使用StrayBirds快速搭建。
-去掉disqus评论，增加多说评论
-增加站内搜索，百度和google都测试了，没成功，分析原因应该是子页面是解析md文件的原因
-==========
+## GitHub Page修改根据minixalpha提供的飞鸟集GitHub page框架快速搭建
+---
 
-基于 GitHub Pages 搭建的极简博客，所有操作都可以直接通过浏览器完成。
+### 修改
+ - 去掉disqus评论（需要翻墙），增加多说评论
+ - 增加站内搜索，百度和google都测试了，没成功，先隐藏了，分析原因应该是子页面是解析md文件的原因，有想实验的可以共同探讨
+ - 修改底部导航栏
+---
 
-## 示例
+## 基于 GitHub Pages 搭建的极简博客，所有操作都可以直接通过浏览器完成。
 
-可以通过访问 [StrayBirds](http://minixalpha.github.io/StrayBirds/) 看到最终
-的效果，下面是截图:
-
-![ui-demo](/images/ui_demo.png)
+可以通过访问 [示例](http://shaipxiang.github.io/android/) 看到最终
+的效果
 
 ## 教程
 
-### 使用方法
+### 使用方法(此示例为原作者地址：飞鸟集)
 
-1. 注册 GitHub，得到用户名，例如 minixbeta
+1. 注册 GitHub，得到用户名，例如 minixalpha
 2. 到 [StrayBirds](https://github.com/minixalpha/StrayBirds) 页面，单击右上
 角的 Fork
 3. 到你 Fork 后的项目中，将 `_config.yml` 中的 username 修改为你的用户名 minixbeta
@@ -70,16 +70,16 @@
 ![create_post](/images/change_project_name.gif)
 
 
-* 修改评论系统用户名
+* 修改评论系统用户名（此处做了修改，关闭disqus，增加多说）
+disqus评论系统需要翻墙，国内访问限制较多，修改为多说评论
+需要先去注册一下，复制JavaScript代码进文章详情页面即可。
 
-我们的评论系统使用的是 [Disqus](https://disqus.com/)，如果你想在这份博客模板中使用，需要先去注册一下，然后得到一个用户名，例如 minixalpha。然后在 `_config.yml` 中将 disqusname 修改为 minixalpha。
-
-**千万注意: 如果你开启评论系统一定要修改这个值，不然就评论到我的评论系统中去了**
+**千万注意: 复制代码时一定要修改JavaScript中的三个值，此处参考我的代码，不然就评论不到页面中去了**
 
 ### 添加文章
 
-在 `_post` 目录下添加形如 `2014-10-26-title.md` 的文章，用 markdown 格式
-撰写博客。
+在 `_post` 目录下添加形如 `2017-01-01-title.md` 的文章，用 markdown 格式
+撰写博客，会自动分配到对应的目录中（目录没有会自动创建）
 
 例如：
 
@@ -101,7 +101,7 @@ category: 技术
 
 ```
 
-其中 `layout` 表示布局，不用改变，`title` 表示文章题目，`comments` 表示是否要开户评论。
+其中 `layout` 表示布局，不用改变，`title` 表示文章题目，`comments` 表示是否要开户评，此处为disqus可不管。
 
 ![create_post](/images/create_post.gif)
 
